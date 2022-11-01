@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="nav-register">
+    <form action="./" method="post">
+      
+        <div class="inputGroup">
+          <input type="text" required="" autocomplete="off">
+          <label for="name">Name</label>
+      </div>
+       
+       
+      <div class="inputGroup">
+        <input type="text" required="" autocomplete="off">
+        <label for="name">Nombre de usuari@</label>
+    </div>
+
+    <div class="inputGroup">
+      <input type="email" required="" placeholder="email" autocomplete="off">
+  </div>
+
+       <!-- <div class="form-group">
+        <label for="nacimiento">Fecha de nacimiento</label> <br>
+        <input type="date" name="fecha" required>
+       </div> -->
+       <div class="fecha">
+        <input type="date" required="" autocomplete="off">
+        <label for="name">Fecha de nacimiento</label>
+    </div>
+
+       <div class="inputGroup">
+        <input type="text" required="" autocomplete="off">
+        <label for="name">Domicilio</label>
+    </div>
+      
+       <div class="form-group">
+        <label class="perfil">Perfil del usuario </label> <br> <br>
+        <label for="Comprador">Comprador</label>
+        <input type="radio"  name="perfil-usuario" value="Comprador"> </label>
+
+        <label for="Vendedor">Vendedor</label>
+        <input type="radio"  name="perfil-usuario" value="Vendedor"> </label>
+       </div>
+
+       <div class="form-group">
+        <label class="perfil">Intereses</label> <br> <br>
+        <label for="Electro" class="checkbox">Electro
+        <input type="checkbox" name="intereses"  value="Electro"></label>
+        <label for="Moda" class="checkbox">Moda
+        <input type="checkbox" name="intereses"  value="Moda"></label>
+        <label for="Hogar" class="checkbox">Hogar
+        <input type="checkbox" name="intereses"  value="Hogar"></label>
+        <label for="Jugueteria" class="checkbox">Jugueteria
+        <input type="checkbox" name="intereses"  value="Jugueteria"></label>
+        <label for="Vida sana" class="checkbox">Vida sana
+        <input type="checkbox" name="intereses"  value="Vida sana"> </label>
+       </div>
+       
+       <div class="form-group">
+
+          <label for="imagenDePerfil" class="perfil"> Foto de usuario:  <br> <br>
+          <input type="file" name="imagenDePerfil">
+          </label>
+
+       </div>
+
+
+ 
+            <div class="inputGroup">
+              <input type="password" name="contraseña" placeholder="contraseña" autocomplete="off"  required>
+          </div>
+
+       </div>
+
+       <div class="inputGroup">
+        <input type="password" name="confirma-contraseña" placeholder="confirma contraseña" autocomplete="off"  required>
+    </div>
+
+      <div>
+
+        <button type="submit" class="submit">Enviar</button>
+        <button type="reset" class="home-button">Borrar</button>
+
+      </div>
+
+
+    </form>
+</nav>
+</body>
+</html>
