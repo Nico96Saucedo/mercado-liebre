@@ -33,16 +33,24 @@ header{
     background-color: #EAC926;
 }
 
-.logo {    
-    width: 40%; 
-    margin-top: 3%; 
-    margin-left: 3%;
+.top-header-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
 
+.logo {    
+    width: 45%; 
+    padding: 0 20px
 }
 .search{
-    width: 50%;
-    margin-top: 3%;
-    text-align: center;
+    width: 50%; 
+    height: 20px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
    
 }
 .fa-search{
@@ -51,22 +59,28 @@ header{
 }
 .buscador{
     border-style: none;
-    width: 100%;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 40vw;
+    
 }
 
 .label-buscador{
-    width: 100;
     border-style: none;
     background-color: #fff;
-}
-.top-header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.top-header-p p{
+    margin: 20px 0 0;
+    width: 100%;
 }
 
 .cuotas{
     text-align: center;
-    margin-top: 5%;
+    font-size: 12px;
 }
 
 header nav{
@@ -82,11 +96,7 @@ header ul li a {
 
 
 
-header div.top-header p{
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-}
+
 
 div.burger-menu{
     padding-bottom: 12px;
@@ -236,8 +246,13 @@ margin-right: 3%;
 
   /*====== register ======*/
 .nav-register{
-    background-color:gainsboro;
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-register h3{
+    margin-top: 5px;
+    padding: 5px;
 }
 .form-group{
     text-align: center;    
@@ -256,7 +271,7 @@ margin-right: 3%;
 .checkbox{
     display: flex;
     flex-direction: row;
-    padding: 3%;
+    
     justify-content: center;
     
 }
@@ -264,12 +279,11 @@ margin-right: 3%;
 
 .fecha{
     font-family: 'Segoe UI', sans-serif;
-    margin: 1em 0 1em 0;
+    margin: 1em auto 1em;
     max-width: 236px;
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-left: 12%;
 }
 .fecha input{
     font-size: 100%;
@@ -292,10 +306,9 @@ margin-right: 3%;
 
 .inputGroup {
     font-family: 'Segoe UI', sans-serif;
-    margin: 1em 0 1em 0;
+    margin: 1em auto 1em;
     max-width: 237px;
     position: relative;
-    margin-left: 12%;
    
   }
   
@@ -356,10 +369,15 @@ margin-right: 3%;
     border-radius: 20px;
     margin-left: 30%;
 }
+/*====== login ======*/
 
 
 
 @media (min-width: 650px){
+
+    .cuotas{
+        font-size: 15px;
+    }
    
 
     main section article{
@@ -413,57 +431,6 @@ margin-right: 3%;
         padding: 25px;
         
      }
-
-
-     .logo {    
-        width: 45%; 
-        margin-left: 5px;
-        margin-top: 5%;
-       
-    
-    }
-    .search{
-        width: 30%; 
-        margin-top: 7%; 
-       
-       
-    }
-    .buscador{
-        border-style: none;
-        
-
-    }
-    .fa-search{
-       padding: 5px;
-       background-color: #fff;
-    }
-    
-    .label-buscador{
-        display: flex;
-        flex-direction: row;
-        border: none;
-        width: 100%;
-        justify-content: space-between;    
-    }
-    .top-header-p{
-        display: flex;
-        justify-content: space-between;
-    }
-    .top-header{
-        width: 60%;
-        margin-right: 10%;
-        margin-left: 5%;
-    }
-    
-    .cuotas{
-        width: 35%;
-        margin: revert;
-        font-size: 16px;
-        margin-right: 50px;
-        margin-top: 3%;
-    }
-}
-
   /*====== register ======*/
 
 
@@ -502,54 +469,26 @@ margin-right: 3%;
     border-radius: 20px;
     margin-left: 30%;
 }
+}
 @media (min-width: 769px){
-    
-   
-    .logo {    
-        width: 40%; 
-        margin-left: 5px;
-       
-    
+    .logo{
+        width: 30%;
     }
     .search{
-        width: 30%; 
-        margin-top: 5%; 
-       
-       
+        width: 30%;
     }
-    .buscador{
-        border-style: none;
-        
-
-    }
-    .fa-search{
-       padding: 5px;
-       background-color: #fff;
+    .label-buscador{
+        width: 100%;
     }
     
-    .label-buscador{
-        display: flex;
-        flex-direction: row;
-        border: none;
-        width: 100%;
-        justify-content: space-between;    
-    }
-    .top-header-p{
-        display: flex;
-        justify-content: space-between;
-    }
-    .top-header{
-        width: 60%;
-        margin-right: 10%;
-        margin-left: 5%;
+    .top-header-p p{
+        margin: 0;
+        width: 30%;
+        font-size: 16px;
     }
     
     .cuotas{
-        width: 35%;
-        margin: revert;
-        font-size: 16px;
-        margin-right: 50px;
-        margin-top: 3%;
+       text-align: center;
     }
     
 
