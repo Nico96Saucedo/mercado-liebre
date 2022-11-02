@@ -258,10 +258,11 @@ margin-right: 3%;
     text-align: center;    
     padding: 8px;
     width: 100%;
+    font-size: 16px;
 }
 
 .perfil{
-    font-size: 15px;
+    font-size: 20px;
     
     font-family: 'Segoe UI', sans-serif;
     border-radius: 20px;
@@ -280,7 +281,7 @@ margin-right: 3%;
 .fecha{
     font-family: 'Segoe UI', sans-serif;
     margin: 1em auto 1em;
-    max-width: 236px;
+    max-width: 700px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -307,7 +308,7 @@ margin-right: 3%;
 .inputGroup {
     font-family: 'Segoe UI', sans-serif;
     margin: 1em auto 1em;
-    max-width: 237px;
+    max-width: 700px;
     position: relative;
    
   }
@@ -436,7 +437,7 @@ margin-right: 3%;
 
 
 .perfil{
-    font-size: 20px;   
+    font-size: 25px;   
     font-family: 'Segoe UI', sans-serif;
     border-radius: 20px;
 
